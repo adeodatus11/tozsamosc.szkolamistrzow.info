@@ -1,0 +1,1041 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Koncepcja działalności ZSZ5 - strona prezentacyjna</title>
+  <meta name="description" content="Robocza strona prezentacyjna koncepcji działalności Zespołu Szkół Zawodowych nr 5 we Wrocławiu.">
+  <link rel="canonical" href="https://tozsamosc.szkolamistrzow.info/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tozsamosc.szkolamistrzow.info/">
+  <meta property="og:title" content="Koncepcja działalności ZSZ5">
+  <meta property="og:description" content="Szkoła blisko zawodu, pracodawcy i ucznia. Robocza koncepcja działalności ZSZ5 we Wrocławiu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #f5f7fa;
+      --surface-color: #ffffff;
+      --surface-muted: #eef4f0;
+      --text-color: #1f2d26;
+      --text-muted: #5b6b63;
+      --heading-color: #173625;
+      --primary-color: #089700;
+      --primary-hover: #067500;
+      --primary-soft: #e8f5e8;
+      --secondary-color: #047690;
+      --accent-color: #ff8f00;
+      --accent-soft: #fff3e0;
+      --border-color: #d8e3db;
+      --header-bg: rgba(255, 255, 255, 0.9);
+      --on-primary: #ffffff;
+      --radius: 16px;
+      --transition: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      --shadow: 0 6px 24px rgba(23, 54, 37, 0.08);
+      --shadow-hover: 0 14px 36px rgba(23, 54, 37, 0.14);
+      --hero-image: url("assets/zsz5-hero.jpg");
+      --workshop-image: url("assets/zsz5-workshop.jpg");
+      --school-logo: url("assets/szkola-mistrzow-logo.png");
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text-color);
+      background: var(--bg-color);
+      font-family: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    a:hover {
+      color: var(--primary-hover);
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      min-height: 92px;
+      padding: 14px 5%;
+      background: var(--header-bg);
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+      backdrop-filter: blur(15px);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 15px;
+      min-width: 220px;
+      color: var(--primary-color);
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .brand-mark {
+      width: 70px;
+      height: 54px;
+      background-image: var(--school-logo);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: thin;
+    }
+
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 5px 0;
+      border: 1px solid transparent;
+      border-radius: 0;
+      color: var(--text-color);
+      font-size: 1.02rem;
+      font-weight: 600;
+      text-decoration: none;
+      position: relative;
+    }
+
+    .nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background: var(--primary-color);
+      transition: var(--transition);
+    }
+
+    .nav a:hover::after,
+    .nav a:focus-visible::after {
+      width: 100%;
+    }
+
+    .hero {
+      position: relative;
+      min-height: auto;
+      display: grid;
+      align-items: center;
+      overflow: hidden;
+      background: radial-gradient(circle at top center, var(--primary-soft) 0%, var(--bg-color) 72%);
+      color: var(--text-color);
+      text-align: center;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0)),
+        var(--hero-image);
+      background-position: center bottom;
+      background-size: cover;
+      opacity: 0.08;
+    }
+
+    .hero-inner {
+      position: relative;
+      width: min(1080px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 116px 0 82px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0 20px;
+      padding: 7px 18px;
+      color: var(--primary-hover);
+      background: var(--primary-soft);
+      border: 1px solid var(--border-color);
+      border-radius: 999px;
+      font-size: 0.86rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .eyebrow::before {
+      display: none;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      letter-spacing: 0;
+      color: var(--heading-color);
+      line-height: 1.18;
+    }
+
+    h1 {
+      max-width: 960px;
+      margin: 0 auto;
+      font-size: 4.5rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--heading-color) 0%, var(--primary-color) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-lead {
+      max-width: 800px;
+      margin: 28px auto 0;
+      color: var(--text-muted);
+      font-size: 1.35rem;
+      font-weight: 400;
+    }
+
+    .hero-meta {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 34px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 7px 18px;
+      border: 1px solid var(--border-color);
+      border-radius: 999px;
+      color: var(--primary-hover);
+      background: var(--surface-color);
+      font-size: 0.9rem;
+      font-weight: 700;
+      box-shadow: var(--shadow);
+    }
+
+    .hero-visual {
+      min-height: 260px;
+      margin: 54px auto 0;
+      border: 10px solid var(--surface-color);
+      border-radius: 24px;
+      background-image: var(--hero-image);
+      background-size: cover;
+      background-position: center;
+      box-shadow: var(--shadow-hover);
+    }
+
+    .section {
+      padding: 86px 5%;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .section.alt {
+      background: var(--surface-color);
+    }
+
+    .wrap {
+      width: min(1200px, 100%);
+      margin: 0 auto;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 0.85fr) minmax(280px, 1fr);
+      gap: 56px;
+      align-items: end;
+      margin-bottom: 42px;
+    }
+
+    .kicker {
+      margin: 0 0 12px;
+      color: var(--primary-hover);
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      max-width: 720px;
+      font-size: 3rem;
+      font-weight: 800;
+    }
+
+    .section-copy {
+      margin: 0;
+      color: var(--text-muted);
+      font-size: 1.08rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid.cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .grid.cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid.cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .card {
+      min-height: 100%;
+      padding: 34px;
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .card h3 {
+      margin-bottom: 14px;
+      color: var(--primary-color);
+      font-size: 1.24rem;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--text-muted);
+    }
+
+    .metric {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 30px 24px;
+      color: var(--text-color);
+      text-align: center;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      background: var(--surface-color);
+      box-shadow: var(--shadow);
+    }
+
+    .metric:nth-child(2) {
+      background: var(--primary-soft);
+    }
+
+    .metric:nth-child(3) {
+      background: #eef7fa;
+    }
+
+    .metric:nth-child(4) {
+      color: var(--text-color);
+      background: var(--accent-soft);
+    }
+
+    .metric strong {
+      color: var(--primary-color);
+      font-size: 3.2rem;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .metric span {
+      font-size: 0.94rem;
+      color: var(--text-muted);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .path {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .step {
+      position: relative;
+      min-height: 118px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 18px;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      background: var(--surface-color);
+      box-shadow: var(--shadow);
+    }
+
+    .step::after {
+      content: "";
+      position: absolute;
+      right: -10px;
+      top: 50%;
+      width: 10px;
+      height: 2px;
+      background: var(--border-color);
+    }
+
+    .step:last-child::after {
+      display: none;
+    }
+
+    .step small {
+      color: var(--text-muted);
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .step strong {
+      font-size: 1.05rem;
+      line-height: 1.2;
+    }
+
+    .image-band {
+      min-height: 420px;
+      display: grid;
+      align-items: end;
+      background-image: var(--workshop-image);
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .image-band::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(9, 45, 20, 0.78), rgba(9, 45, 20, 0.24));
+    }
+
+    .image-band .wrap {
+      position: relative;
+      z-index: 1;
+    }
+
+    .image-band .wrap {
+      padding-top: 88px;
+      padding-bottom: 88px;
+    }
+
+    .image-band h2 {
+      max-width: 860px;
+      text-shadow: 0 3px 18px rgba(0, 0, 0, 0.45);
+    }
+
+    .image-band p {
+      max-width: 700px;
+      margin: 20px 0 0;
+      font-size: 1.16rem;
+      color: #f4fbf7;
+      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.42);
+    }
+
+    .answers {
+      display: grid;
+      gap: 18px;
+    }
+
+    .answer {
+      display: grid;
+      grid-template-columns: 210px minmax(0, 1fr);
+      gap: 28px;
+      padding: 28px;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      background: var(--surface-color);
+      box-shadow: var(--shadow);
+    }
+
+    .answer-label {
+      color: var(--primary-color);
+      font-size: 0.92rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .answer h3 {
+      margin-bottom: 12px;
+      font-size: 2rem;
+    }
+
+    .answer p {
+      margin: 0;
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    .quote {
+      margin: 28px 0 0;
+      padding: 42px;
+      color: var(--on-primary);
+      background: var(--primary-color);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .quote p {
+      max-width: 940px;
+      margin: 0;
+      font-size: 2.45rem;
+      line-height: 1.14;
+      font-weight: 800;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    .list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .list li {
+      padding: 12px 0 12px 18px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-muted);
+    }
+
+    .list li::marker {
+      display: none;
+    }
+
+    .list li::before {
+      content: "";
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      margin: 0 11px 1px -18px;
+      background: var(--accent-color);
+      border-radius: 50%;
+    }
+
+    .tagline {
+      display: inline-flex;
+      margin-bottom: 18px;
+      padding: 7px 12px;
+      border: 1px solid var(--border-color);
+      border-radius: 999px;
+      color: var(--primary-hover);
+      background: var(--primary-soft);
+      font-size: 0.9rem;
+      font-weight: 800;
+    }
+
+    .sources {
+      columns: 2;
+      column-gap: 42px;
+      margin: 0;
+      padding-left: 18px;
+      color: var(--text-muted);
+      font-size: 0.96rem;
+    }
+
+    .sources li {
+      break-inside: avoid;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      padding: 56px 5%;
+      color: var(--on-primary);
+      background: var(--primary-color);
+      border-top: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    footer .wrap {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: center;
+    }
+
+    @media (max-width: 900px) {
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+        min-height: auto;
+      }
+
+      .brand-mark {
+        width: 58px;
+        height: 44px;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 2.25rem;
+      }
+
+      .hero-lead {
+        font-size: 1.12rem;
+      }
+
+      .section {
+        padding: 62px 5%;
+      }
+
+      .section-head,
+      .split,
+      .answer {
+        grid-template-columns: 1fr;
+      }
+
+      .grid.cols-4,
+      .grid.cols-3,
+      .grid.cols-2,
+      .path {
+        grid-template-columns: 1fr;
+      }
+
+      .step::after {
+        display: none;
+      }
+
+      .sources {
+        columns: 1;
+      }
+
+      footer .wrap {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .nav {
+        gap: 18px;
+      }
+
+      .brand {
+        font-size: 1.1rem;
+      }
+
+      .hero-inner {
+        padding: 74px 0 58px;
+      }
+
+      h1 {
+        font-size: 2.35rem;
+      }
+
+      h2 {
+        font-size: 1.9rem;
+      }
+
+      .hero-visual {
+        min-height: 190px;
+        border-width: 6px;
+      }
+
+      .card,
+      .answer,
+      .quote {
+        padding: 24px;
+      }
+
+      .quote p {
+        font-size: 1.6rem;
+      }
+    }
+
+    @media print {
+      .topbar {
+        display: none;
+      }
+
+      .hero,
+      .section,
+      .image-band {
+        min-height: auto;
+        break-inside: avoid;
+      }
+
+      .hero {
+        color: var(--text-color);
+        background: #fff;
+      }
+
+      .hero::before {
+        display: none;
+      }
+
+      .pill {
+        color: var(--text-color);
+        border-color: var(--border-color);
+      }
+
+      body {
+        background: #fff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#start" aria-label="Przejdź do początku">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>ZSZ5 · Szkoła Mistrzów</span>
+    </a>
+    <nav class="nav" aria-label="Nawigacja po prezentacji">
+      <a href="#tozsamosc">Szkoła</a>
+      <a href="#uczen">Uczeń</a>
+      <a href="#cel">Cel</a>
+      <a href="#model">Model</a>
+      <a href="#dzialania">Działania</a>
+      <a href="#mierniki">Mierniki</a>
+      <a href="#zrodla">Źródła</a>
+    </nav>
+  </header>
+
+  <main id="start">
+    <section class="hero" aria-label="Okładka prezentacji">
+      <div class="hero-inner">
+        <p class="eyebrow">Robocza koncepcja działalności szkoły</p>
+        <h1>Szkoła blisko zawodu, pracodawcy i ucznia</h1>
+        <p class="hero-lead">
+          Wizualna wersja robocza opowieści o Zespole Szkół Zawodowych nr 5 we Wrocławiu:
+          od tożsamości szkoły, przez ucznia i cel, do modelu działania oraz mierników sukcesu.
+        </p>
+        <div class="hero-meta" aria-label="Najważniejsze hasła">
+          <span class="pill">kształcenie dualne</span>
+          <span class="pill">praktyka u pracodawców</span>
+          <span class="pill">wsparcie ucznia</span>
+          <span class="pill">zawód i dalsza nauka</span>
+        </div>
+        <div class="hero-visual" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="tozsamosc" class="section alt">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">1. Jaką szkołą jesteśmy?</p>
+            <h2>Szkoła zawodowa oparta na praktyce, tradycji i współpracy.</h2>
+          </div>
+          <p class="section-copy">
+            ZSZ5 można opowiedzieć jako szkołę, która łączy wieloletnią tradycję kształcenia zawodowego
+            z modelem dualnym i realnym wejściem ucznia w środowisko pracy.
+          </p>
+        </div>
+
+        <div class="grid cols-4" aria-label="Dane orientacyjne">
+          <div class="metric">
+            <strong>869</strong>
+            <span>uczniów według SIP Wrocław, stan strony z 11.05.2026</span>
+          </div>
+          <div class="metric">
+            <strong>40</strong>
+            <span>oddziałów według SIP Wrocław</span>
+          </div>
+          <div class="metric">
+            <strong>20+</strong>
+            <span>zawodów komunikowanych w materiałach Szkoły Mistrzów</span>
+          </div>
+          <div class="metric">
+            <strong>270+</strong>
+            <span>zakładów pracy wskazywanych w materiałach promocyjnych</span>
+          </div>
+        </div>
+
+        <div class="quote">
+          <p>ZSZ5 nie jest tylko miejscem nauki zawodu. To punkt styku szkoły, rzemiosła, pracodawcy, rodziny i lokalnego rynku pracy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="uczen" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">2. Kto jest naszym uczniem?</p>
+            <h2>Uczeń szuka konkretnej drogi, ale potrzebuje też stabilnego wsparcia.</h2>
+          </div>
+          <p class="section-copy">
+            W ZSZ5 uczeń funkcjonuje między szkołą, pracodawcą, rodziną i własnymi aspiracjami.
+            Dlatego koncepcja musi łączyć wymagania zawodowe z bezpieczeństwem, relacją i jasnymi zasadami.
+          </p>
+        </div>
+
+        <div class="grid cols-3">
+          <article class="card">
+            <h3>Branżowa Szkoła I stopnia</h3>
+            <p>Uczeń zdobywa zawód u pracodawcy, pracuje jako młodociany pracownik i może szybko wejść na rynek pracy.</p>
+          </article>
+          <article class="card">
+            <h3>Technikum nr 5</h3>
+            <p>Uczeń łączy przygotowanie zawodowe z przedmiotami ogólnokształcącymi, egzaminami kwalifikacyjnymi i możliwością matury.</p>
+          </article>
+          <article class="card">
+            <h3>Branżowa Szkoła II stopnia</h3>
+            <p>Absolwent szkoły branżowej kontynuuje naukę, aby uzyskać tytuł technika i otworzyć drogę do matury.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="image-band" aria-label="Zdjęcie szkoły i uczniów">
+      <div class="wrap">
+        <p class="kicker" style="color:#f4c15d;">Codzienność szkoły</p>
+        <h2>Najważniejszy proces dzieje się między lekcją, praktyką, wsparciem i pierwszą odpowiedzialnością zawodową.</h2>
+        <p>To właśnie tam koncepcja szkoły musi być widoczna: w frekwencji, relacjach, praktykach, egzaminach i współpracy z pracodawcami.</p>
+      </div>
+    </section>
+
+    <section id="cel" class="section alt">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">3. Jaki stawiamy sobie cel?</p>
+            <h2>Przygotować ucznia do zawodu, dalszego rozwoju i samodzielnego życia.</h2>
+          </div>
+          <p class="section-copy">
+            Cel nie powinien sprowadzać się wyłącznie do egzaminu. Egzamin jest ważnym dowodem jakości,
+            ale pełny sukces oznacza kwalifikacje, doświadczenie, odpowiedzialność i gotowość do dalszej nauki lub pracy.
+          </p>
+        </div>
+
+        <div class="answers">
+          <article class="answer">
+            <div class="answer-label">Cel zawodowy</div>
+            <div>
+              <h3>Kwalifikacje i doświadczenie</h3>
+              <p>Uczeń ma zdobyć konkretny zawód, poznać rzeczywiste środowisko pracy i rozumieć standardy branży.</p>
+            </div>
+          </article>
+          <article class="answer">
+            <div class="answer-label">Cel edukacyjny</div>
+            <div>
+              <h3>Egzamin i dalsza ścieżka</h3>
+              <p>Szkoła przygotowuje do egzaminów zawodowych, matury w odpowiednich typach szkół oraz kontynuacji nauki.</p>
+            </div>
+          </article>
+          <article class="answer">
+            <div class="answer-label">Cel wychowawczy</div>
+            <div>
+              <h3>Odpowiedzialność i samodzielność</h3>
+              <p>Uczeń powinien rozwijać kulturę pracy, punktualność, komunikację, odporność i gotowość do współpracy.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="model" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Rdzeń modelu ZSZ5</p>
+            <h2>Nie kopiujemy SKiL. Nazywamy własny model szkoły.</h2>
+          </div>
+          <p class="section-copy">
+            Wersja robocza modelu wynika z materiałów szkoły, schematu LEA/ITECH i wcześniejszej koncepcji:
+            uczeń przechodzi przez system, w którym szkoła i pracodawca są współodpowiedzialni za jego rozwój.
+          </p>
+        </div>
+
+        <div class="path" aria-label="Model działania ZSZ5">
+          <div class="step"><small>01</small><strong>Uczeń</strong></div>
+          <div class="step"><small>02</small><strong>Szkoła</strong></div>
+          <div class="step"><small>03</small><strong>Pracodawca</strong></div>
+          <div class="step"><small>04</small><strong>Kompetencje</strong></div>
+          <div class="step"><small>05</small><strong>Egzamin</strong></div>
+          <div class="step"><small>06</small><strong>Praca lub dalsza nauka</strong></div>
+        </div>
+
+        <div class="quote">
+          <p>ZSZ5 łączy naukę szkolną, praktykę u pracodawców i wsparcie wychowawcze, aby uczeń zdobył kwalifikacje, doświadczenie i gotowość do odpowiedzialnego wejścia na rynek pracy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="dzialania" class="section alt">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">4. Jak chcemy ten cel osiągać?</p>
+            <h2>Sześć obszarów pracy szkoły.</h2>
+          </div>
+          <p class="section-copy">
+            To robocza mapa wdrażania koncepcji. Powinna zostać uzupełniona o konkretne terminy,
+            osoby odpowiedzialne i mierniki po zebraniu danych wewnętrznych.
+          </p>
+        </div>
+
+        <div class="grid cols-3">
+          <article class="card">
+            <h3>Kształcenie zawodowe i praktyka</h3>
+            <p>Rozwijanie modelu dualnego, jakości praktyk, współpracy z cechami i pracodawcami.</p>
+          </article>
+          <article class="card">
+            <h3>Uczeń i wsparcie</h3>
+            <p>Wychowawca, pedagog, psycholog, pedagog specjalny, profilaktyka i doradztwo jako część systemu jakości.</p>
+          </article>
+          <article class="card">
+            <h3>Nauczyciele i dydaktyka</h3>
+            <p>Rozwój kompetencji kadry, praca z uczniem zróżnicowanym i spójna informacja zwrotna.</p>
+          </article>
+          <article class="card">
+            <h3>Baza i środowisko uczenia</h3>
+            <p>Pracownie, historyczny budynek, modernizacja, doposażenie i przestrzenie wspierające naukę zawodu.</p>
+          </article>
+          <article class="card">
+            <h3>Promocja i reputacja</h3>
+            <p>Marka Szkoły Mistrzów, konkursy, sukcesy uczniów, dni otwarte i jasna komunikacja rekrutacyjna.</p>
+          </article>
+          <article class="card">
+            <h3>Projekty i partnerstwa</h3>
+            <p>Łączenie lokalnych potrzeb rynku pracy z projektami rozwojowymi, unijnymi i międzynarodowymi.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="mierniki" class="section">
+      <div class="wrap">
+        <div class="split">
+          <div>
+            <span class="tagline">Po czym poznamy, że działa?</span>
+            <h2>Mierniki muszą pokazać więcej niż aktywność szkoły.</h2>
+            <p class="section-copy" style="margin-top:18px;">
+              W finalnej koncepcji warto odróżnić działania od efektów. Same konkursy, projekty i wydarzenia
+              są ważne, ale mierniki powinny pokazywać zmianę w uczeniu, frekwencji, egzaminach,
+              rekrutacji, współpracy z pracodawcami i losach absolwentów.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Mierniki do uzupełnienia danymi</h3>
+            <ul class="list">
+              <li>wyniki egzaminów zawodowych i matury,</li>
+              <li>frekwencja oraz promocja do kolejnych klas,</li>
+              <li>liczba uczniów kończących szkołę,</li>
+              <li>losy absolwentów i kontynuacja nauki,</li>
+              <li>opinie pracodawców o przygotowaniu uczniów,</li>
+              <li>aktywne partnerstwa i jakość praktyk,</li>
+              <li>rekrutacja i zainteresowanie zawodami,</li>
+              <li>postęp w doposażeniu i modernizacji bazy.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Do potwierdzenia</p>
+            <h2>Najważniejsze braki przed wersją finalną.</h2>
+          </div>
+          <p class="section-copy">
+            Strony www dają mocny obraz promocyjny i rekrutacyjny. Do koncepcji trzeba dodać diagnozę wewnętrzną:
+            dane, problemy, ograniczenia i decyzje rozwojowe.
+          </p>
+        </div>
+
+        <div class="grid cols-2">
+          <article class="card">
+            <h3>Dane o uczniu i wynikach</h3>
+            <ul class="list">
+              <li>frekwencja i główne przyczyny nieobecności,</li>
+              <li>wyniki egzaminów zawodowych i matur,</li>
+              <li>skala pomocy psychologiczno-pedagogicznej,</li>
+              <li>losy absolwentów i kontynuacja nauki.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Dane o organizacji i partnerach</h3>
+            <ul class="list">
+              <li>aktywni pracodawcy i jakość praktyk,</li>
+              <li>potrzeby kadrowe i kwalifikacyjne,</li>
+              <li>stan inwestycji, remontów i pracowni,</li>
+              <li>opinie rodziców, uczniów i firm.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="zrodla" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Źródła i status</p>
+            <h2>Robocza wersja do rozmowy, nie dokument finalny.</h2>
+          </div>
+          <p class="section-copy">
+            Strona została przygotowana na podstawie publicznych materiałów szkoły, wcześniejszych plików MD
+            oraz mapy prezentacji LEA/ITECH. Dane liczbowe należy potwierdzić przed użyciem oficjalnym.
+          </p>
+        </div>
+
+        <ol class="sources">
+          <li><a href="https://zsz5.edupage.org/">zsz5.edupage.org</a></li>
+          <li><a href="https://www.szkolamistrzow.info/">szkolamistrzow.info</a></li>
+          <li><a href="https://www.szkolamistrzow.info/poznaj-nas">Szkoła Mistrzów - Poznaj nas</a></li>
+          <li><a href="https://www.szkolamistrzow.info/mlodociani">Pracownicy młodociani - przewodnik</a></li>
+          <li><a href="https://zsz5.edupage.org/a/pomoc-psychologiczno-pedagogiczna">Pomoc psychologiczno-pedagogiczna</a></li>
+          <li><a href="https://zsz5.edupage.org/a/projekty">Projekty ZSZ5</a></li>
+          <li><a href="https://geoportal.wroclaw.pl/poi/poi/16932">SIP Wrocław - Zespół Szkół Zawodowych nr 5</a></li>
+          <li><a href="docs/10_robocze-odpowiedzi-na-pytania-z-materialow-www.md">Robocze odpowiedzi z materiałów www</a></li>
+          <li><a href="docs/08_lea-conference-struktura-i-mapa-do-zsz5.md">Mapa LEA/ITECH do ZSZ5</a></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Koncepcja działalności ZSZ5 · wersja robocza</strong>
+      <span>Opracowanie lokalne: 2026-06-22</span>
+    </div>
+  </footer>
+</body>
+</html>
