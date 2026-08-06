@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Identyfikacja wizualna ZSZ5 - Szkoła Mistrzów</title>
+  <meta name="description" content="Robocza księga znaku i zasady identyfikacji wizualnej ZSZ5 we Wrocławiu: logo, kolory, typografia, tabliczki i plakaty informacyjne.">
+  <link rel="canonical" href="https://tozsamosc.szkolamistrzow.info/identyfikacja.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tozsamosc.szkolamistrzow.info/identyfikacja.html">
+  <meta property="og:title" content="Identyfikacja wizualna ZSZ5">
+  <meta property="og:description" content="Roboczy guideline dla znaku, kolorów, tabliczek i plakatów informacyjnych ZSZ5.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #f5f7fa;
+      --surface-color: #ffffff;
+      --surface-muted: #eef4f0;
+      --text-color: #1f2d26;
+      --text-muted: #5b6b63;
+      --heading-color: #173625;
+      --primary-color: #089700;
+      --primary-hover: #067500;
+      --primary-soft: #e8f5e8;
+      --secondary-color: #047690;
+      --accent-color: #ff8f00;
+      --accent-soft: #fff3e0;
+      --border-color: #d8e3db;
+      --header-bg: rgba(255, 255, 255, 0.92);
+      --on-primary: #ffffff;
+      --radius: 16px;
+      --shadow: 0 6px 24px rgba(23, 54, 37, 0.08);
+      --school-logo: url("assets/szkola-mistrzow-logo.png");
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text-color);
+      background: var(--bg-color);
+      font-family: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main,
+    section,
+    .wrap,
+    .hero-inner {
+      max-width: 100%;
+    }
+
+    a {
+      color: var(--primary-hover);
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:focus-visible {
+      color: var(--primary-color);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      min-height: 82px;
+      padding: 12px 5%;
+      background: var(--header-bg);
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+      backdrop-filter: blur(15px);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 220px;
+      color: var(--primary-color);
+      font-size: 1.2rem;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .brand:hover,
+    .brand:focus-visible {
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 62px;
+      height: 48px;
+      background-image: var(--school-logo);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      max-width: 100%;
+      min-width: 0;
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: thin;
+    }
+
+    .nav a {
+      color: var(--text-color);
+      font-size: 0.98rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .nav a[aria-current="page"] {
+      color: var(--primary-hover);
+    }
+
+    .hero {
+      background: linear-gradient(180deg, var(--primary-soft), var(--bg-color));
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .hero-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr);
+      gap: 44px;
+      align-items: center;
+      width: min(1220px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 78px 0 62px;
+    }
+
+    .hero-inner > * {
+      min-width: 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      margin: 0 0 16px;
+      padding: 7px 14px;
+      color: var(--primary-hover);
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: 999px;
+      font-size: 0.84rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      color: var(--heading-color);
+      line-height: 1.16;
+      letter-spacing: 0;
+      overflow-wrap: anywhere;
+    }
+
+    h1 {
+      max-width: 680px;
+      font-size: clamp(2.5rem, 5vw, 4.7rem);
+      font-weight: 800;
+    }
+
+    h2 {
+      max-width: 780px;
+      font-size: clamp(2rem, 3.2vw, 3rem);
+      font-weight: 800;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 800;
+    }
+
+    .lead {
+      max-width: 720px;
+      margin: 22px 0 0;
+      color: var(--text-muted);
+      font-size: 1.18rem;
+      overflow-wrap: anywhere;
+    }
+
+    .hero-panel {
+      min-width: 0;
+      overflow: hidden;
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-panel img,
+    .preview img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .section {
+      padding: 78px 5%;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .section.alt {
+      background: var(--surface-color);
+    }
+
+    .wrap {
+      width: min(1220px, 100%);
+      margin: 0 auto;
+    }
+
+    .section-copy {
+      max-width: 760px;
+      margin: 18px 0 0;
+      color: var(--text-muted);
+      font-size: 1.06rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+      margin-top: 34px;
+      min-width: 0;
+    }
+
+    .grid.cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .grid.cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid.cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .card {
+      min-height: 100%;
+      padding: 28px;
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .alt .card {
+      background: var(--bg-color);
+    }
+
+    .card p {
+      margin: 12px 0 0;
+      color: var(--text-muted);
+    }
+
+    .token {
+      display: grid;
+      gap: 18px;
+      min-height: 168px;
+      padding: 22px;
+      border-radius: var(--radius);
+      color: #ffffff;
+      align-content: space-between;
+    }
+
+    .token.light {
+      color: var(--text-color);
+      border: 1px solid var(--border-color);
+    }
+
+    .token strong {
+      font-size: 1.1rem;
+    }
+
+    .token code {
+      font: inherit;
+      font-weight: 800;
+    }
+
+    .preview {
+      min-width: 0;
+      overflow: hidden;
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .preview figcaption {
+      margin: 0;
+      padding: 16px 20px 18px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-color);
+      font-size: 0.96rem;
+    }
+
+    .rules {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      gap: 24px;
+      align-items: start;
+      margin-top: 34px;
+      min-width: 0;
+    }
+
+    .rule-list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .rule-list li {
+      padding: 12px 0 12px 18px;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .rule-list li::before {
+      content: "";
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      margin: 0 11px 1px -18px;
+      background: var(--accent-color);
+      border-radius: 50%;
+    }
+
+    .spec {
+      display: grid;
+      grid-template-columns: 150px minmax(0, 1fr);
+      gap: 18px;
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .spec strong {
+      color: var(--heading-color);
+    }
+
+    .spec span {
+      color: var(--text-muted);
+    }
+
+    .download-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 9px 16px;
+      color: #ffffff;
+      background: var(--primary-hover);
+      border: 1px solid var(--primary-hover);
+      border-radius: 999px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .button.secondary {
+      color: var(--primary-hover);
+      background: var(--surface-color);
+      border-color: var(--border-color);
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    footer {
+      padding: 48px 5%;
+      color: var(--on-primary);
+      background: var(--primary-color);
+    }
+
+    footer .wrap {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: center;
+    }
+
+    footer a {
+      color: #ffffff;
+      font-weight: 800;
+    }
+
+    @media (max-width: 960px) {
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+        min-height: auto;
+      }
+
+      .hero-inner,
+      .rules {
+        grid-template-columns: 1fr;
+      }
+
+      .nav {
+        width: 100%;
+      }
+
+      .hero-inner {
+        padding-top: 56px;
+      }
+
+      .hero-panel,
+      .preview {
+        width: 100%;
+      }
+
+      .grid.cols-4,
+      .grid.cols-3,
+      .grid.cols-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .section {
+        padding: 58px 5%;
+      }
+
+      .brand {
+        font-size: 1.05rem;
+      }
+
+      .brand-mark {
+        width: 54px;
+        height: 42px;
+      }
+
+      h1 {
+        max-width: 10ch;
+        font-size: 2.45rem;
+      }
+
+      h2 {
+        font-size: 1.95rem;
+      }
+
+      .lead {
+        font-size: 1rem;
+      }
+
+      .hero-inner {
+        width: 100%;
+        padding-right: 18px;
+        padding-left: 18px;
+      }
+
+      .hero-panel {
+        max-width: calc(100vw - 36px);
+      }
+
+      .hero-panel img,
+      .preview img {
+        width: 100%;
+        max-width: 100%;
+        transform: none;
+      }
+
+      .card {
+        padding: 22px;
+      }
+
+      .spec {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+
+      footer .wrap {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Wróć do strony koncepcji">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>ZSZ5 · Szkoła Mistrzów</span>
+    </a>
+    <nav class="nav" aria-label="Nawigacja po stronie identyfikacji">
+      <a href="./">Koncepcja</a>
+      <a href="#znak">Znak</a>
+      <a href="#kolory">Kolory</a>
+      <a href="#tabliczki">Tabliczki</a>
+      <a href="#plakaty">Plakaty</a>
+      <a href="#pliki">Pliki</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Wprowadzenie">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow">Robocza księga znaku</p>
+          <h1>Identyfikacja wizualna ZSZ5</h1>
+          <p class="lead">
+            Zasady używania znaku, kolorów, typografii, tabliczek na sale i plakatów informacyjnych szkoły.
+          </p>
+          <div class="download-row">
+            <a class="button" href="docs/identity/guideline-identyfikacji.md">Pobierz guideline</a>
+            <a class="button secondary" href="docs/identity/guideline-plakaty-informacyjne.md">Zasady plakatów</a>
+          </div>
+        </div>
+        <figure class="hero-panel">
+          <img src="assets/identity/identity-board.png" alt="Plansza roboczego systemu identyfikacji ZSZ5 z logo, kolorami i typografią.">
+        </figure>
+      </div>
+    </section>
+
+    <section id="znak" class="section alt">
+      <div class="wrap">
+        <h2>Znak: orzeł i Szkoła Mistrzów</h2>
+        <p class="section-copy">
+          Podstawą systemu jest orzeł z napisem ZSZ5 we Wrocławiu oraz szeroki lockup z nazwą szkoły i hasłem Szkoła Mistrzów. Znak ma identyfikować materiał, nie zastępować treści.
+        </p>
+
+        <div class="grid cols-3">
+          <article class="card">
+            <h3>Wersja ciemna</h3>
+            <p>Do jasnych teł, dokumentów, tabliczek, stopki plakatu i materiałów drukowanych.</p>
+          </article>
+          <article class="card">
+            <h3>Wersja jasna</h3>
+            <p>Do ciemnych belek, tablic kierunkowych, zdjęć z przyciemnionym pasem i ciemnych plansz.</p>
+          </article>
+          <article class="card">
+            <h3>Lockup szeroki</h3>
+            <p>Do nagłówków, prezentacji, stron WWW i plakatów, gdy trzeba pokazać pełną nazwę szkoły.</p>
+          </article>
+        </div>
+
+        <div class="rules">
+          <div class="card">
+            <h3>Reguły użycia</h3>
+            <ul class="rule-list">
+              <li>Zostaw pole ochronne wokół znaku.</li>
+              <li>Nie rozciągaj ani nie przerysowuj logo.</li>
+              <li>Nie dodawaj cienia, obrysu ani efektu 3D.</li>
+              <li>Nie twórz osobnych logo dla wydarzeń i klas.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Minimalny rozmiar</h3>
+            <div class="spec"><strong>Dokument A4</strong><span>minimum 25 mm, rekomendowane 32-40 mm</span></div>
+            <div class="spec"><strong>Plakat A4/A3</strong><span>minimum 35 mm, rekomendowane 45-65 mm</span></div>
+            <div class="spec"><strong>Tabliczka</strong><span>minimum 20 mm, rekomendowane 24-30 mm</span></div>
+            <div class="spec"><strong>WWW/social</strong><span>minimum 140 px, rekomendowane 180-260 px</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kolory" class="section">
+      <div class="wrap">
+        <h2>Kolory i typografia</h2>
+        <p class="section-copy">
+          Paleta porządkuje istniejącą zieleń ZSZ5 i dodaje kolory funkcjonalne: ciemną zieleń do oficjalnych belek, niebieski do informacji organizacyjnych i pomarańcz wyłącznie do pilnych terminów.
+        </p>
+
+        <div class="grid cols-4">
+          <div class="token" style="background:#173625"><strong>Deep Forest</strong><code>#173625</code></div>
+          <div class="token" style="background:#089700"><strong>ZSZ Green</strong><code>#089700</code></div>
+          <div class="token" style="background:#047690"><strong>Workshop Blue</strong><code>#047690</code></div>
+          <div class="token" style="background:#FF8F00"><strong>Craft Amber</strong><code>#FF8F00</code></div>
+          <div class="token light" style="background:#F5F7FA"><strong>Warm White</strong><code>#F5F7FA</code></div>
+          <div class="token light" style="background:#E8F5E8"><strong>Mint Panel</strong><code>#E8F5E8</code></div>
+          <div class="token" style="background:#1F2D26"><strong>Ink</strong><code>#1F2D26</code></div>
+          <div class="token light" style="background:#D8E3DB"><strong>Soft Line</strong><code>#D8E3DB</code></div>
+        </div>
+
+        <div class="grid cols-3">
+          <article class="card">
+            <h3>Barlow Condensed</h3>
+            <p>Nagłówki, numery sal, tytuły tablic i duże daty.</p>
+          </article>
+          <article class="card">
+            <h3>Atkinson Hyperlegible</h3>
+            <p>Tekst informacyjny, opisy, listy i komunikaty dla uczniów oraz rodziców.</p>
+          </article>
+          <article class="card">
+            <h3>Source Serif 4</h3>
+            <p>Tylko materiały uroczyste: zaproszenia, dyplomy, cytaty i publikacje.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="tabliczki" class="section alt">
+      <div class="wrap">
+        <h2>Tabliczki na sale</h2>
+        <p class="section-copy">
+          Tabliczka ma być prostsza niż plakat. Jej zadanie to szybka identyfikacja sali: numer lub funkcja, krótki opis i znak szkoły. Bez opiekuna sali i bez informacji tymczasowych.
+        </p>
+
+        <div class="rules">
+          <figure class="preview">
+            <img src="assets/identity/door-sign-preview.png" alt="Przykładowa tabliczka na drzwi: Sala 204, Pracownia fryzjerska.">
+            <figcaption>Wariant podstawowy: numer sali, nazwa pomieszczenia, stopka szkoły.</figcaption>
+          </figure>
+          <div class="card">
+            <h3>Szablony treści</h3>
+            <div class="spec"><strong>Sala zawodowa</strong><span>SALA 204 / Pracownia fryzjerska</span></div>
+            <div class="spec"><strong>Sala ogólna</strong><span>SALA 115 / Sala lekcyjna</span></div>
+            <div class="spec"><strong>Funkcja</strong><span>SEKRETARIAT / sprawy uczniowskie i administracyjne</span></div>
+            <div class="spec"><strong>Tymczasowe</strong><span>osobny komunikat, nie stała tabliczka</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plakaty" class="section">
+      <div class="wrap">
+        <h2>Plakaty informacyjne</h2>
+        <p class="section-copy">
+          Plakat szkolny ma prowadzić do jednej decyzji odbiorcy. Nie powinien być regulaminem, gazetką ani zbiorem wielu spraw naraz.
+        </p>
+
+        <div class="rules">
+          <figure class="preview">
+            <img src="assets/identity/poster-preview.png" alt="Przykładowy plakat informacyjny ZSZ5 z belką logo, nagłówkiem, leadem i blokiem danych.">
+            <figcaption>Stały układ: belka, kategoria, nagłówek, lead, blok danych, stopka z QR lub linkiem.</figcaption>
+          </figure>
+          <div class="card">
+            <h3>1 plakat = 1 sprawa</h3>
+            <ul class="rule-list">
+              <li>Nagłówek maksymalnie 7 słów.</li>
+              <li>Lead maksymalnie 18 słów.</li>
+              <li>Dane maksymalnie 5 wierszy.</li>
+              <li>Dłuższe informacje przenieś do WWW, PDF albo QR.</li>
+              <li>Pomarańcz stosuj tylko do pilnych terminów i zmian.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid cols-3">
+          <article class="card">
+            <h3>Komunikat</h3>
+            <p>Sprawy organizacyjne, zebrania, konsultacje, informacje sekretariatu. Kolor: Workshop Blue.</p>
+          </article>
+          <article class="card">
+            <h3>Rekrutacja</h3>
+            <p>Nabór, drzwi otwarte, oferta zawodów, spotkania dla ósmoklasistów. Kolor: ZSZ Green.</p>
+          </article>
+          <article class="card">
+            <h3>Egzaminy</h3>
+            <p>Matura, egzaminy zawodowe, deklaracje, listy sal. Kolor: Deep Forest z akcentem Craft Amber.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="kierunki" class="section alt">
+      <div class="wrap">
+        <h2>Tablice kierunkowe</h2>
+        <p class="section-copy">
+          Wayfinding ma najpierw prowadzić, dopiero potem budować klimat. Ten sam kolor powinien powtarzać się na tablicy wejściowej, strzałkach i tabliczkach przy salach.
+        </p>
+        <figure class="preview" style="margin-top:34px">
+          <img src="assets/identity/wayfinding-preview.png" alt="Przykładowa tablica kierunkowa ZSZ5 z podziałem na piętra i strefy.">
+          <figcaption>Przykład tablicy głównej z podziałem na piętra i najważniejsze punkty orientacyjne.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="pliki" class="section">
+      <div class="wrap">
+        <h2>Pliki i dokumenty źródłowe</h2>
+        <p class="section-copy">
+          Poniżej są robocze dokumenty Markdown i grafiki startowe. Można je dalej przepisać do Canvy, Figmy, prezentacji albo finalnej księgi znaku.
+        </p>
+
+        <div class="grid cols-3">
+          <article class="card">
+            <h3>Księga znaku</h3>
+            <p>Pełny guideline: znak, kolory, typografia, tabliczki, kierunki i checklista.</p>
+            <div class="download-row"><a class="button secondary" href="docs/identity/guideline-identyfikacji.md">Otwórz MD</a></div>
+          </article>
+          <article class="card">
+            <h3>Plakaty</h3>
+            <p>Osobny guideline dla komunikatów, rekrutacji, egzaminów, wydarzeń i pilnych zmian.</p>
+            <div class="download-row"><a class="button secondary" href="docs/identity/guideline-plakaty-informacyjne.md">Otwórz MD</a></div>
+          </article>
+          <article class="card">
+            <h3>Kwerenda</h3>
+            <p>Notatka o tym, jak zbudowana jest księga znaku i które reguły przeniesiono do ZSZ5.</p>
+            <div class="download-row"><a class="button secondary" href="docs/identity/kwerenda-ksiega-znaku.md">Otwórz MD</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Identyfikacja wizualna ZSZ5 · wersja robocza</strong>
+      <a href="./">Wróć do koncepcji</a>
+    </div>
+  </footer>
+</body>
+</html>
