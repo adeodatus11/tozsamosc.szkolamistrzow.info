@@ -27,7 +27,7 @@ Wersja ZSZ5 powinna być prosta, bo główne użycia są codzienne: gabloty, drz
 
 Identyfikacja ma łączyć:
 
-- **fachowość** - szkoła zawodowa, warsztat, konkret, praktyka;
+- **fachowość** - szkoła sektorowa, warsztat, konkret, praktyka;
 - **czytelność** - informacja ma być widoczna z kilku metrów;
 - **ambicję** - orzeł i „Szkoła Mistrzów” pracują jako sygnał poziomu, nie jako dekoracja.
 
@@ -207,7 +207,7 @@ Nie dodawać opiekuna sali. Jeżeli trzeba podać dyżur, zastępstwo albo list�
 ### 7.3. Kolory tabliczek
 
 - Sale dydaktyczne: `Workshop Blue`.
-- Pracownie zawodowe: `ZSZ Green`.
+- Pracownie branżowe: `ZSZ Green`.
 - Administracja: `Deep Forest`.
 - Komunikaty tymczasowe na drzwiach: `Craft Amber`.
 
@@ -316,4 +316,3 @@ Przed drukiem lub publikacją:
 ## 12. Źródła i kwerenda
 
 Pełna notatka: `kwerenda-ksiega-znaku.md`.
-

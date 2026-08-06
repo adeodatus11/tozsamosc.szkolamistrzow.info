@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Koncepcja działalności ZSZ5 - strona prezentacyjna</title>
-  <meta name="description" content="Robocza strona prezentacyjna koncepcji działalności Zespołu Szkół Zawodowych nr 5 we Wrocławiu.">
+  <meta name="description" content="Koncepcja działalności Zespołu Szkół Zawodowych nr 5 we Wrocławiu: tożsamość szkoły, model pracy, uczeń, działania i mierniki sukcesu.">
   <link rel="canonical" href="https://tozsamosc.szkolamistrzow.info/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tozsamosc.szkolamistrzow.info/">
   <meta property="og:title" content="Koncepcja działalności ZSZ5">
-  <meta property="og:description" content="Szkoła blisko zawodu, pracodawcy i ucznia. Robocza koncepcja działalności ZSZ5 we Wrocławiu.">
+  <meta property="og:description" content="Szkoła sektorowa blisko branż, pracodawców i ucznia. Koncepcja działalności ZSZ5 we Wrocławiu.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -210,6 +210,10 @@
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+
+    h1 span {
+      display: block;
     }
 
     .hero-lead {
@@ -649,27 +653,82 @@
     }
 
     @media (max-width: 560px) {
+      .topbar {
+        width: 100%;
+        max-width: 100vw;
+        overflow: hidden;
+      }
+
+      .brand,
+      .nav,
+      .hero-inner,
+      .hero-lead,
+      h1,
+      h2 {
+        min-width: 0;
+        max-width: 100%;
+      }
+
       .nav {
         gap: 18px;
+        width: calc(100vw - 10%);
+        max-width: calc(100vw - 10%);
+        padding-bottom: 4px;
       }
 
       .brand {
+        min-width: 0;
+        max-width: calc(100vw - 10%);
         font-size: 1.1rem;
+        white-space: normal;
       }
 
       .hero-inner {
-        padding: 74px 0 58px;
+        width: 340px;
+        max-width: calc(100vw - 32px);
+        margin-left: 18px;
+        margin-right: auto;
+        padding: 74px 2px 58px;
+        text-align: left;
       }
 
       h1 {
-        font-size: 2.35rem;
+        width: 330px;
+        max-width: calc(100vw - 36px);
+        font-size: 1.95rem;
+        overflow-wrap: anywhere;
       }
 
       h2 {
         font-size: 1.9rem;
+        overflow-wrap: anywhere;
+      }
+
+      .hero-lead {
+        width: 330px;
+        max-width: calc(100vw - 36px);
+        font-size: 1rem;
+        overflow-wrap: anywhere;
+      }
+
+      .hero-meta {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: start;
+      }
+
+      .pill {
+        max-width: calc(100vw - 56px);
+        justify-content: center;
+        white-space: normal;
+        text-align: center;
       }
 
       .hero-visual {
+        width: 350px;
+        max-width: calc(100vw - 32px);
+        margin-left: 0;
+        margin-right: 0;
         min-height: 190px;
         border-width: 6px;
       }
@@ -738,17 +797,17 @@
   <main id="start">
     <section class="hero" aria-label="Okładka prezentacji">
       <div class="hero-inner">
-        <p class="eyebrow">Robocza koncepcja działalności szkoły</p>
-        <h1>Szkoła blisko zawodu, pracodawcy i ucznia</h1>
+        <p class="eyebrow">Koncepcja działalności szkoły</p>
+        <h1><span>Szkoła sektorowa</span><span>blisko branż</span><span>i ucznia</span></h1>
         <p class="hero-lead">
-          Wizualna wersja robocza opowieści o Zespole Szkół Zawodowych nr 5 we Wrocławiu:
-          od tożsamości szkoły, przez ucznia i cel, do modelu działania oraz mierników sukcesu.
+          Wizualna opowieść o Zespole Szkół Zawodowych nr 5 we Wrocławiu:
+          od obietnicy dla ucznia, przez model uczenia i współpracę z branżami, do mierników sukcesu.
         </p>
         <div class="hero-meta" aria-label="Najważniejsze hasła">
-          <span class="pill">kształcenie dualne</span>
+          <span class="pill">misja i obietnica</span>
           <span class="pill">praktyka u pracodawców</span>
           <span class="pill">wsparcie ucznia</span>
-          <span class="pill">zawód i dalsza nauka</span>
+          <span class="pill">kwalifikacje i dalsza nauka</span>
         </div>
         <div class="hero-visual" aria-hidden="true"></div>
       </div>
@@ -759,11 +818,11 @@
         <div class="section-head">
           <div>
             <p class="kicker">1. Jaką szkołą jesteśmy?</p>
-            <h2>Szkoła zawodowa oparta na praktyce, tradycji i współpracy.</h2>
+            <h2>Szkoła sektorowa, która uczy przez praktykę, relacje i odpowiedzialność.</h2>
           </div>
           <p class="section-copy">
-            ZSZ5 można opowiedzieć jako szkołę, która łączy wieloletnią tradycję kształcenia zawodowego
-            z modelem dualnym i realnym wejściem ucznia w środowisko pracy.
+            ZSZ5 można opowiedzieć jak instytucję, która nie tylko prowadzi typy szkół i kierunki,
+            ale organizuje drogę ucznia: od wyboru branży, przez praktykę i wsparcie, do samodzielności.
           </p>
         </div>
 
@@ -778,7 +837,7 @@
           </div>
           <div class="metric">
             <strong>20+</strong>
-            <span>zawodów komunikowanych w materiałach Szkoły Mistrzów</span>
+            <span>ścieżek branżowych komunikowanych w materiałach Szkoły Mistrzów</span>
           </div>
           <div class="metric">
             <strong>270+</strong>
@@ -787,7 +846,7 @@
         </div>
 
         <div class="quote">
-          <p>ZSZ5 nie jest tylko miejscem nauki zawodu. To punkt styku szkoły, rzemiosła, pracodawcy, rodziny i lokalnego rynku pracy.</p>
+          <p>Misja ZSZ5: łączymy szkołę, branże i pracodawców, aby uczeń zdobył kwalifikacje, kulturę pracy, umiejętności życiowe i realny plan dalszego rozwoju.</p>
         </div>
       </div>
     </section>
@@ -801,18 +860,18 @@
           </div>
           <p class="section-copy">
             W ZSZ5 uczeń funkcjonuje między szkołą, pracodawcą, rodziną i własnymi aspiracjami.
-            Dlatego koncepcja musi łączyć wymagania zawodowe z bezpieczeństwem, relacją i jasnymi zasadami.
+            Dlatego koncepcja musi łączyć wymagania branż i pracodawców z bezpieczeństwem, relacją i jasnymi zasadami.
           </p>
         </div>
 
         <div class="grid cols-3">
           <article class="card">
             <h3>Branżowa Szkoła I stopnia</h3>
-            <p>Uczeń zdobywa zawód u pracodawcy, pracuje jako młodociany pracownik i może szybko wejść na rynek pracy.</p>
+            <p>Uczeń zdobywa kwalifikacje u pracodawcy, pracuje jako młodociany pracownik i może szybko wejść na rynek pracy.</p>
           </article>
           <article class="card">
             <h3>Technikum nr 5</h3>
-            <p>Uczeń łączy przygotowanie zawodowe z przedmiotami ogólnokształcącymi, egzaminami kwalifikacyjnymi i możliwością matury.</p>
+            <p>Uczeń łączy przygotowanie branżowe i techniczne z przedmiotami ogólnokształcącymi, egzaminami kwalifikacyjnymi i możliwością matury.</p>
           </article>
           <article class="card">
             <h3>Branżowa Szkoła II stopnia</h3>
@@ -825,7 +884,7 @@
     <section class="image-band" aria-label="Zdjęcie szkoły i uczniów">
       <div class="wrap">
         <p class="kicker" style="color:#f4c15d;">Codzienność szkoły</p>
-        <h2>Najważniejszy proces dzieje się między lekcją, praktyką, wsparciem i pierwszą odpowiedzialnością zawodową.</h2>
+        <h2>Najważniejszy proces dzieje się między lekcją, praktyką, wsparciem i pierwszą odpowiedzialnością za pracę.</h2>
         <p>To właśnie tam koncepcja szkoły musi być widoczna: w frekwencji, relacjach, praktykach, egzaminach i współpracy z pracodawcami.</p>
       </div>
     </section>
@@ -835,20 +894,20 @@
         <div class="section-head">
           <div>
             <p class="kicker">3. Jaki stawiamy sobie cel?</p>
-            <h2>Przygotować ucznia do zawodu, dalszego rozwoju i samodzielnego życia.</h2>
+            <h2>Przygotować ucznia do kwalifikacji, dalszego rozwoju i samodzielnego życia.</h2>
           </div>
           <p class="section-copy">
             Cel nie powinien sprowadzać się wyłącznie do egzaminu. Egzamin jest ważnym dowodem jakości,
-            ale pełny sukces oznacza kwalifikacje, doświadczenie, odpowiedzialność i gotowość do dalszej nauki lub pracy.
+            ale pełny sukces oznacza kwalifikacje, doświadczenie, kompetencje życiowe, odpowiedzialność i gotowość do dalszej nauki lub pracy.
           </p>
         </div>
 
         <div class="answers">
           <article class="answer">
-            <div class="answer-label">Cel zawodowy</div>
+            <div class="answer-label">Cel branżowy</div>
             <div>
               <h3>Kwalifikacje i doświadczenie</h3>
-              <p>Uczeń ma zdobyć konkretny zawód, poznać rzeczywiste środowisko pracy i rozumieć standardy branży.</p>
+              <p>Uczeń ma zdobyć kwalifikacje, poznać rzeczywiste środowisko pracy i rozumieć standardy branży.</p>
             </div>
           </article>
           <article class="answer">
@@ -877,22 +936,22 @@
             <h2>Nie kopiujemy SKiL. Nazywamy własny model szkoły.</h2>
           </div>
           <p class="section-copy">
-            Wersja robocza modelu wynika z materiałów szkoły, schematu LEA/ITECH i wcześniejszej koncepcji:
-            uczeń przechodzi przez system, w którym szkoła i pracodawca są współodpowiedzialni za jego rozwój.
+            Model pokazuje własną obietnicę ZSZ5 i to, jak działa ona w codziennej organizacji uczenia:
+            w szkole, u pracodawcy, w relacji wychowawczej i w dalszej ścieżce ucznia.
           </p>
         </div>
 
         <div class="path" aria-label="Model działania ZSZ5">
-          <div class="step"><small>01</small><strong>Uczeń</strong></div>
-          <div class="step"><small>02</small><strong>Szkoła</strong></div>
-          <div class="step"><small>03</small><strong>Pracodawca</strong></div>
-          <div class="step"><small>04</small><strong>Kompetencje</strong></div>
-          <div class="step"><small>05</small><strong>Egzamin</strong></div>
+          <div class="step"><small>01</small><strong>Uczeń i jego droga</strong></div>
+          <div class="step"><small>02</small><strong>Szkoła jako ramy</strong></div>
+          <div class="step"><small>03</small><strong>Praktyka w branży</strong></div>
+          <div class="step"><small>04</small><strong>Kompetencje i wsparcie</strong></div>
+          <div class="step"><small>05</small><strong>Egzamin i jakość</strong></div>
           <div class="step"><small>06</small><strong>Praca lub dalsza nauka</strong></div>
         </div>
 
         <div class="quote">
-          <p>ZSZ5 łączy naukę szkolną, praktykę u pracodawców i wsparcie wychowawcze, aby uczeń zdobył kwalifikacje, doświadczenie i gotowość do odpowiedzialnego wejścia na rynek pracy.</p>
+          <p>Obietnica ZSZ5: uczeń wychodzi ze szkoły z kwalifikacjami, doświadczeniem, wsparciem i odwagą do dalszej nauki, pracy oraz odpowiedzialnego życia.</p>
         </div>
       </div>
     </section>
@@ -905,14 +964,14 @@
             <h2>Sześć obszarów pracy szkoły.</h2>
           </div>
           <p class="section-copy">
-            To robocza mapa wdrażania koncepcji. Powinna zostać uzupełniona o konkretne terminy,
-            osoby odpowiedzialne i mierniki po zebraniu danych wewnętrznych.
+            Mapa porządkuje najważniejsze obszary pracy szkoły: od dydaktyki i praktyk,
+            przez wsparcie ucznia, po partnerstwa, bazę i reputację.
           </p>
         </div>
 
         <div class="grid cols-3">
           <article class="card">
-            <h3>Kształcenie zawodowe i praktyka</h3>
+            <h3>Kształcenie branżowe i techniczne</h3>
             <p>Rozwijanie modelu dualnego, jakości praktyk, współpracy z cechami i pracodawcami.</p>
           </article>
           <article class="card">
@@ -925,7 +984,7 @@
           </article>
           <article class="card">
             <h3>Baza i środowisko uczenia</h3>
-            <p>Pracownie, historyczny budynek, modernizacja, doposażenie i przestrzenie wspierające naukę zawodu.</p>
+            <p>Pracownie, historyczny budynek, modernizacja, doposażenie i przestrzenie wspierające naukę w branży.</p>
           </article>
           <article class="card">
             <h3>Promocja i reputacja</h3>
@@ -946,13 +1005,13 @@
             <span class="tagline">Po czym poznamy, że działa?</span>
             <h2>Mierniki muszą pokazać więcej niż aktywność szkoły.</h2>
             <p class="section-copy" style="margin-top:18px;">
-              W finalnej koncepcji warto odróżnić działania od efektów. Same konkursy, projekty i wydarzenia
+              W koncepcji warto odróżnić działania od efektów. Same konkursy, projekty i wydarzenia
               są ważne, ale mierniki powinny pokazywać zmianę w uczeniu, frekwencji, egzaminach,
               rekrutacji, współpracy z pracodawcami i losach absolwentów.
             </p>
           </div>
           <div class="card">
-            <h3>Mierniki do uzupełnienia danymi</h3>
+            <h3>Mierniki monitorowane w szkole</h3>
             <ul class="list">
               <li>wyniki egzaminów zawodowych i matury,</li>
               <li>frekwencja oraz promocja do kolejnych klas,</li>
@@ -972,12 +1031,12 @@
       <div class="wrap">
         <div class="section-head">
           <div>
-            <p class="kicker">Do potwierdzenia</p>
-            <h2>Najważniejsze braki przed wersją finalną.</h2>
+            <p class="kicker">Dane i rozwój</p>
+            <h2>Najważniejsze obszary monitorowania jakości.</h2>
           </div>
           <p class="section-copy">
-            Strony www dają mocny obraz promocyjny i rekrutacyjny. Do koncepcji trzeba dodać diagnozę wewnętrzną:
-            dane, problemy, ograniczenia i decyzje rozwojowe.
+            Jakość szkoły widać nie tylko w liczbie działań, ale przede wszystkim w efektach ucznia,
+            współpracy z pracodawcami, stabilności organizacji i rozwoju bazy.
           </p>
         </div>
 
@@ -1010,7 +1069,7 @@
           <article class="card">
             <h3>Identyfikacja wizualna ZSZ5</h3>
             <p>
-              Robocza księga znaku, kolory, typografia, tabliczki na sale, tablice kierunkowe
+              Księga znaku, kolory, typografia, tabliczki na sale, tablice kierunkowe
               i zasady plakatów informacyjnych szkoły.
             </p>
           </article>
@@ -1025,12 +1084,12 @@
 
         <div class="section-head">
           <div>
-            <p class="kicker">Źródła i status</p>
-            <h2>Robocza wersja do rozmowy, nie dokument finalny.</h2>
+            <p class="kicker">Materiały źródłowe</p>
+            <h2>Podstawa opracowania.</h2>
           </div>
           <p class="section-copy">
-            Strona została przygotowana na podstawie publicznych materiałów szkoły, wcześniejszych plików MD
-            oraz mapy prezentacji LEA/ITECH. Dane liczbowe należy potwierdzić przed użyciem oficjalnym.
+            Strona została przygotowana na podstawie publicznych materiałów szkoły, materiałów Szkoły Mistrzów
+            oraz opracowań koncepcyjnych zebranych w repozytorium.
           </p>
         </div>
 
@@ -1042,8 +1101,6 @@
           <li><a href="https://zsz5.edupage.org/a/pomoc-psychologiczno-pedagogiczna">Pomoc psychologiczno-pedagogiczna</a></li>
           <li><a href="https://zsz5.edupage.org/a/projekty">Projekty ZSZ5</a></li>
           <li><a href="https://geoportal.wroclaw.pl/poi/poi/16932">SIP Wrocław - Zespół Szkół Zawodowych nr 5</a></li>
-          <li><a href="docs/10_robocze-odpowiedzi-na-pytania-z-materialow-www.md">Robocze odpowiedzi z materiałów www</a></li>
-          <li><a href="docs/08_lea-conference-struktura-i-mapa-do-zsz5.md">Mapa LEA/ITECH do ZSZ5</a></li>
         </ol>
       </div>
     </section>
@@ -1051,7 +1108,7 @@
 
   <footer>
     <div class="wrap">
-      <strong>Koncepcja działalności ZSZ5 · wersja robocza</strong>
+      <strong>Koncepcja działalności ZSZ5</strong>
       <span>Opracowanie lokalne: 2026-06-22</span>
     </div>
   </footer>

@@ -23,9 +23,9 @@ Uwagi:
 
 ### Odpowiedź robocza
 
-ZSZ5 jest szkołą zawodową o silnym profilu praktycznym, która łączy wieloletnią tradycję kształcenia zawodowego z modelem dualnym, współpracą z pracodawcami i ofertą zawodów usługowych, rzemieślniczych oraz technicznych.
+ZSZ5 jest szkołą sektorową o silnym profilu praktycznym, która łączy wieloletnią tradycję kształcenia branżowego i technicznego z modelem dualnym, współpracą z pracodawcami i ofertą ścieżek usługowych, rzemieślniczych oraz technicznych.
 
-Szkoła komunikuje się jako **Szkoła Mistrzów**: miejsce, w którym uczeń zdobywa zawód nie tylko w sali lekcyjnej, ale również w realnym środowisku pracy. Jej wyróżnikiem jest połączenie bezpłatnej nauki szkolnej z opłacanymi praktykami u pracodawców oraz obecność ucznia w środowisku zawodowym od początku ścieżki kształcenia.
+Szkoła komunikuje się jako **Szkoła Mistrzów**: miejsce, w którym uczeń zdobywa kwalifikacje nie tylko w sali lekcyjnej, ale również w realnym środowisku pracy. Jej wyróżnikiem jest połączenie bezpłatnej nauki szkolnej z opłacanymi praktykami u pracodawców oraz obecność ucznia w środowisku branżowym od początku ścieżki kształcenia.
 
 ### Fakty ze źródeł
 
@@ -40,7 +40,7 @@ Szkoła komunikuje się jako **Szkoła Mistrzów**: miejsce, w którym uczeń zd
 
 W koncepcji warto pokazać ZSZ5 jako szkołę, która nie konkuruje wyłącznie hasłem "nowoczesności", ale własnym, wiarygodnym połączeniem:
 
-- tradycji kształcenia zawodowego,
+- tradycji kształcenia branżowego i technicznego,
 - współpracy z rzemiosłem i pracodawcami,
 - realnej praktyki zawodowej,
 - ścieżek dalszego rozwoju,
@@ -58,7 +58,7 @@ W koncepcji warto pokazać ZSZ5 jako szkołę, która nie konkuruje wyłącznie 
 
 ### Odpowiedź robocza
 
-Uczniem ZSZ5 jest młody człowiek, który szuka konkretnej ścieżki zawodowej i możliwie szybkiego wejścia w dorosłość, ale jednocześnie potrzebuje bezpiecznego, czytelnego i wspierającego środowiska szkolnego. W branżowej szkole I stopnia jest to często uczeń łączący naukę z pracą u pracodawcy. W technikum jest to uczeń, który chce zdobyć kwalifikacje zawodowe, ale zachować możliwość przystąpienia do matury i dalszej nauki. W branżowej szkole II stopnia jest to absolwent szkoły branżowej, który chce kontynuować edukację, uzyskać tytuł technika i otworzyć sobie drogę do matury.
+Uczniem ZSZ5 jest młody człowiek, który szuka konkretnej ścieżki branżowej i możliwie szybkiego wejścia w dorosłość, ale jednocześnie potrzebuje bezpiecznego, czytelnego i wspierającego środowiska szkolnego. W branżowej szkole I stopnia jest to często uczeń łączący naukę z pracą u pracodawcy. W technikum jest to uczeń, który chce zdobyć kwalifikacje techniczne i branżowe, ale zachować możliwość przystąpienia do matury i dalszej nauki. W branżowej szkole II stopnia jest to absolwent szkoły branżowej, który chce kontynuować edukację, uzyskać tytuł technika i otworzyć sobie drogę do matury.
 
 ### Fakty ze źródeł
 
@@ -71,7 +71,7 @@ Uczniem ZSZ5 jest młody człowiek, który szuka konkretnej ścieżki zawodowej 
 
 ### Interpretacja do koncepcji
 
-Uczeń ZSZ5 nie powinien być opisywany wyłącznie jako kandydat do zawodu. To uczeń, który funkcjonuje na styku kilku światów:
+Uczeń ZSZ5 nie powinien być opisywany wyłącznie przez przyszłą pracę. To uczeń, który funkcjonuje na styku kilku światów:
 
 - szkoły,
 - pracodawcy,
@@ -95,7 +95,7 @@ Dla koncepcji ważne jest pokazanie, że szkoła rozumie tę złożoność. W ZS
 
 ### Odpowiedź robocza
 
-Celem pracy szkoły powinno być przygotowanie ucznia do odpowiedzialnego funkcjonowania w zawodzie, dalszego rozwoju i samodzielnego życia. W przypadku ZSZ5 ten cel powinien łączyć trzy porządki: zdobycie kwalifikacji zawodowych, rozwój kompetencji potrzebnych na rynku pracy oraz wsparcie wychowawcze i społeczne.
+Celem pracy szkoły powinno być przygotowanie ucznia do odpowiedzialnego funkcjonowania w branży, dalszego rozwoju i samodzielnego życia. W przypadku ZSZ5 ten cel powinien łączyć trzy porządki: zdobycie kwalifikacji branżowych i technicznych, rozwój kompetencji potrzebnych na rynku pracy oraz wsparcie wychowawcze i społeczne.
 
 Nie wystarczy powiedzieć, że szkoła przygotowuje do egzaminu. Materiały szkoły pokazują szerszą ambicję: uczeń ma zdobyć realne doświadczenie, wejść w świat pracy, rozumieć swoje prawa i obowiązki, a jednocześnie mieć możliwość kontynuacji edukacji.
 
@@ -117,7 +117,7 @@ Celem ZSZ5 jest przygotowanie ucznia do świadomego, odpowiedzialnego i skuteczn
 
 Warto rozwinąć go w cztery podcele:
 
-- wysoka jakość przygotowania zawodowego,
+- wysoka jakość przygotowania branżowego i technicznego,
 - skuteczne zdawanie egzaminów i możliwość dalszej nauki,
 - wzmacnianie odpowiedzialności, kultury pracy i samodzielności ucznia,
 - współpraca z pracodawcami i środowiskiem lokalnym.
@@ -158,11 +158,11 @@ Model ten powinien być wspierany przez dobrą organizację praktycznej nauki za
 
 W koncepcji warto opisać działania w sześciu obszarach:
 
-1. **Kształcenie zawodowe i praktyka**  
+1. **Kształcenie branżowe, techniczne i praktyka**  
    Utrzymywać i rozwijać model dualny, dbać o jakość praktycznej nauki zawodu, wzmacniać współpracę z cechami i pracodawcami.
 
 2. **Uczeń i wsparcie**  
-   Łączyć wymagania zawodowe z realnym wsparciem ucznia: wychowawca, pedagog, psycholog, pedagog specjalny, profilaktyka, doradztwo.
+   Łączyć wymagania branż i pracodawców z realnym wsparciem ucznia: wychowawca, pedagog, psycholog, pedagog specjalny, profilaktyka, doradztwo.
 
 3. **Nauczyciele i jakość dydaktyczna**  
    Rozwijać kompetencje kadry, szczególnie w zakresie kształcenia zawodowego, pracy z uczniem zróżnicowanym oraz współpracy z pracodawcami.
@@ -190,7 +190,7 @@ W koncepcji warto opisać działania w sześciu obszarach:
 ### Wersja krótka
 
 ```text
-Szkoła blisko zawodu, pracodawcy i ucznia.
+Szkoła sektorowa blisko branż, pracodawców i ucznia.
 ```
 
 ### Wersja rozwinięta
@@ -206,7 +206,7 @@ tożsamość szkoły:
 tradycja + Szkoła Mistrzów + zawody usługowe/rzemieślnicze/techniczne
 
 uczeń:
-kandydat do zawodu + młodociany pracownik + osoba potrzebująca wsparcia
+kandydat do kwalifikacji + młodociany pracownik + osoba potrzebująca wsparcia
 
 cel:
 kwalifikacje + doświadczenie + samodzielność + dalszy rozwój
@@ -242,10 +242,10 @@ egzaminy + frekwencja + rekrutacja + absolwenci + opinie pracodawców + aktywne 
 
 ## Notatka do dalszego pisania koncepcji
 
-Materiały www dają silny obraz szkoły jako miejsca praktycznego kształcenia zawodowego, z czytelną marką "Szkoły Mistrzów", systemem dualnym i znaczącą rolą pracodawców. Do dokumentu koncepcyjnego trzeba jednak dodać warstwę, której strona promocyjna naturalnie nie pokazuje w pełni: diagnozę ucznia, problemy, ograniczenia, mierniki i plan zmiany.
+Materiały www dają silny obraz szkoły jako miejsca praktycznego kształcenia branżowego i technicznego, z czytelną marką "Szkoły Mistrzów", systemem dualnym i znaczącą rolą pracodawców. Do dokumentu koncepcyjnego trzeba jednak dodać warstwę, której strona promocyjna naturalnie nie pokazuje w pełni: diagnozę ucznia, problemy, ograniczenia, mierniki i plan zmiany.
 
 Najbardziej naturalna oś koncepcji ZSZ5 po analizie materiałów to:
 
 ```text
-Szkoła z tradycją -> uczeń szukający zawodu i wsparcia -> praktyka u pracodawcy -> kwalifikacje i odpowiedzialność -> praca lub dalsza nauka.
+Szkoła z tradycją -> uczeń szukający kwalifikacji i wsparcia -> praktyka u pracodawcy -> odpowiedzialność i umiejętności życiowe -> praca lub dalsza nauka.
 ```

@@ -12,12 +12,12 @@ Zakres analizy: struktura narracyjna, funkcja slajdów, elementy możliwe do prz
 
 ## Główna logika prezentacji
 
-Prezentacja nie jest klasycznym opisem szkoły. To opowieść o transformacji szkoły zawodowej w kierunku zwinnej, kompetencyjnej instytucji VET.
+Prezentacja nie jest klasycznym opisem szkoły. To opowieść o transformacji szkoły sektorowej w kierunku zwinnej, kompetencyjnej instytucji VET.
 
 Jej konstrukcja wygląda tak:
 
 1. **Ustawienie sceny**: kim jesteśmy, jaka to szkoła, jaka skala działania, jakie partnerstwa.
-2. **Problem zewnętrzny**: świat pracy się zmienia, więc szkoła zawodowa musi odpowiedzieć na nowe kompetencje.
+2. **Problem zewnętrzny**: świat pracy się zmienia, więc sektor kształcenia branżowego i technicznego musi odpowiedzieć na nowe kompetencje.
 3. **Teza strategiczna**: szkoły VET muszą stać się instytucjami agile.
 4. **Zasada przywództwa**: zmiana wymaga zaufania, delegowania, ram pracy, kultury błędu i iteracji.
 5. **Rdzeń modelu**: SKiL, czyli samodzielne, zindywidualizowane i kompetencyjne uczenie się.
@@ -47,11 +47,11 @@ Jej konstrukcja wygląda tak:
 |---:|---|---|---|
 | 1 | Tools and Methods to build an agile VET School / New School for New Work | Okładka: temat, instytucja, partnerzy, nagroda, zdjęcie szkoły. | Okładka ZSZ5 powinna od razu pokazać szkołę, zawody/usługi i hasło rozwojowe. |
 | 2 | Current situation of school development | Slajd przejściowy: prezentacja jest efektem pracy nad dobrymi praktykami. | Można pokazać, że koncepcja ZSZ5 wyrasta z dotychczasowych doświadczeń, nie z abstrakcyjnej wizji. |
-| 3 | ITECH Elbinsel - dual VET Provider | Profil szkoły: kierunki, dualność, czas nauki, proporcja szkoła/firma. | Bezpośredni odpowiednik: ZSZ5 jako szkoła zawodowa z modelem dualnym i silnym zapleczem pracodawców. |
+| 3 | ITECH Elbinsel - dual VET Provider | Profil szkoły: kierunki, dualność, czas nauki, proporcja szkoła/firma. | Bezpośredni odpowiednik: ZSZ5 jako szkoła sektorowa z modelem dualnym i silnym zapleczem pracodawców. |
 | 4 | Facts and Figures | Liczby: nauczyciele, programy, uczniowie, edukacja dualna, edukacja full-time, partnerstwa. | Slajd "ZSZ5 w liczbach" z aktualnymi danymi. Dane z dokumentu 2022 trzeba zaktualizować. |
 | 5 | Partner for Agile Workshops Mobility and Counselling | Mapa partnerstw międzynarodowych. | Dla ZSZ5: mapa ekosystemu lokalnego i branżowego: DIR, cechy, pracodawcy, firmy, instytucje miejskie. |
 | 6 | Background and Challenges | Zewnętrzne wyzwania: technologie, globalizacja, Industry 4.0/5.0, klimat, odporność, partycypacja, inkluzja. | Slajd "Dlaczego szkoła musi się rozwijać": rynek pracy, usługi, automatyzacja, cyfryzacja, zielone kompetencje, potrzeby uczniów. |
-| 7 | Competence Frameworks | Ramy kompetencji: 21st Century Skills, DigCompEdu, EntreComp, GreenComp. | Można użyć jako inspiracji, ale trzeba dobrać ramy adekwatne do polskiej szkoły zawodowej. |
+| 7 | Competence Frameworks | Ramy kompetencji: 21st Century Skills, DigCompEdu, EntreComp, GreenComp. | Można użyć jako inspiracji, ale trzeba dobrać ramy adekwatne do polskiego kształcenia branżowego i technicznego. |
 | 8 | What does that mean? | Teza: VET musi kształcić osoby autonomiczne, zmotywowane, kreatywne i zdolne do rozwiązywania problemów. | Dobra rama dla ZSZ5: absolwent nie tylko "zna zawód", ale umie pracować, współpracować, rozwijać się i reagować na zmianę. |
 | 9 | Leadership Principle | Agenda lub mapa części: Our way, Helpful, Challenges, Summary. | Można wprowadzić mapę prezentacji ZSZ5: punkt wyjścia, kierunki, warunki powodzenia, ograniczenia, plan. |
 | 10 | Agile understanding of leadership | Definicja przywództwa: ramy, zaufanie, odpowiedzialność, rozwój, kultura błędu, SCRUM, QM jako praktyka. | Odnieść do zarządzania ZSZ5: zespoły nauczycielskie, delegowanie, nadzór jako narzędzie rozwoju, nie tylko kontroli. |
@@ -62,7 +62,7 @@ Jej konstrukcja wygląda tak:
 | 15 | Why traditional teaching did not work | Uzasadnia zmianę: heterogeniczne grupy, potrzeba indywidualizacji, nowe kompetencje. | W ZSZ5 można pokazać różnorodność uczniów i potrzebę łączenia wymagań rynku z realnym wsparciem ucznia. |
 | 16 | First Step: the Vision | Proces tworzenia wizji z udziałem ok. 50 nauczycieli i warsztatów. | Dobry wzorzec: pokazać, kto współtworzy wizję ZSZ5: nauczyciele, uczniowie, rodzice, pracodawcy, organ prowadzący. |
 | 17 | Successful Learning / Motivated Work | Mapa warunków uczenia i pracy: autonomia, sens, wsparcie, radość, cele. | Można przełożyć na "warunki sukcesu ucznia i nauczyciela w ZSZ5". |
-| 18 | Future in the Neck | Presja przyszłości: kompetencje, digital transformation, New Work, VUCA/BANI. | Slajd o presji na szkołę zawodową: zmiany technologiczne i społeczne, ale podane lokalnie, nie abstrakcyjnie. |
+| 18 | Future in the Neck | Presja przyszłości: kompetencje, digital transformation, New Work, VUCA/BANI. | Slajd o presji na szkołę sektorową: zmiany technologiczne i społeczne, ale podane lokalnie, nie abstrakcyjnie. |
 | 19 | Think and act with the goal in mind | Trójkąt: present, future, way. | Bardzo dobry układ dla ZSZ5: gdzie jesteśmy, dokąd idziemy, co robimy codziennie. |
 | 20 | Our Vision | Tekst wizji + hashtagi wartości: open, mobile, digital, agile, individualized, sustainable. | ZSZ5 potrzebuje krótkiej wizji w jednym slajdzie, nie tylko długiego opisu. |
 | 21 | Our Mission | Misja jako system: projekty, kompetencje, zespoły, refleksja, LMS, ePortfolio, digitalizacja, agile. | Dla ZSZ5: misja może łączyć zawód, praktykę, partnerów, opiekę, kompetencje i nowoczesne narzędzia. |
@@ -98,7 +98,7 @@ To może pomóc przerobić dokument ZSZ5 z długiego tekstu konkursowego na czyt
 
 ## Proponowany szkielet prezentacji ZSZ5 inspirowany LEA/ITECH
 
-1. **Okładka**: ZSZ5 jako szkoła zawodowa dla nowoczesnego rynku usług.
+1. **Okładka**: ZSZ5 jako szkoła sektorowa dla nowoczesnego rynku usług, rzemiosła i techniki.
 2. **Punkt wyjścia**: szkoła w 2022 i aktualny kontekst 2026.
 3. **ZSZ5 w liczbach**: uczniowie, oddziały, typy szkół, zawody, pracodawcy.
 4. **Ekosystem partnerów**: cechy, DIR, firmy, rodzice, instytucje miejskie, media lokalne.
@@ -130,6 +130,6 @@ To może pomóc przerobić dokument ZSZ5 z długiego tekstu konkursowego na czyt
 
 ## Wniosek roboczy
 
-Prezentacja LEA/ITECH jest dobrym wzorcem nie dlatego, że ZSZ5 ma kopiować niemiecki model SKiL, ale dlatego, że pokazuje, jak opowiedzieć rozwój szkoły zawodowej jako spójny system: **wyzwanie -> wizja -> model pracy -> praktyka ucznia -> strategia wdrożenia -> kultura -> ograniczenia -> kolejny etap**.
+Prezentacja LEA/ITECH jest dobrym wzorcem nie dlatego, że ZSZ5 ma kopiować niemiecki model SKiL, ale dlatego, że pokazuje, jak opowiedzieć rozwój szkoły sektorowej jako spójny system: **wyzwanie -> wizja -> model pracy -> praktyka ucznia -> strategia wdrożenia -> kultura -> ograniczenia -> kolejny etap**.
 
 Najważniejszy kolejny krok dla ZSZ5 to nazwanie własnego rdzenia koncepcji jednym prostym zdaniem, a następnie zbudowanie wokół niego slajdów i plików Markdown.
