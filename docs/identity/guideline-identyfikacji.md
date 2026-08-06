@@ -1,13 +1,13 @@
 # Księga znaku i identyfikacji wizualnej ZSZ5
 
-Wersja robocza: 2026-08-06  
+Wersja: 2026-08-06  
 Zakres: znak, kolory, typografia, tabliczki na sale, tablice kierunkowe, plakaty informacyjne, komunikaty szkolne, grafiki WWW/social.
 
-To nie jest jeszcze finalna księga znaku po pracy grafika nad wektorami. To praktyczny guideline operacyjny: ma pozwolić robić spójne materiały szkoły od razu, na bazie znalezionych plików PNG.
+To praktyczny guideline operacyjny: ma pozwolić robić spójne materiały szkoły od razu, na bazie dostępnych plików znaku i prostych reguł projektowych.
 
 ## 1. Co powinna zawierać księga znaku
 
-Kwerenda oficjalnych ksiąg i brand manuali pokazuje stały schemat:
+Analiza oficjalnych ksiąg i brand manuali pokazuje stały schemat:
 
 1. Geneza i rola znaku.
 2. Wersje znaku: podstawowa, uproszczona, pozioma, pionowa, mono, jasna, ciemna.
@@ -23,7 +23,7 @@ Wersja ZSZ5 powinna być prosta, bo główne użycia są codzienne: gabloty, drz
 
 ## 2. Rdzeń identyfikacji
 
-**Hasło systemu:** Zawodowo. Konkretnie. Po mistrzowsku.
+**Hasło systemu:** Sektorowo. Konkretnie. Po mistrzowsku.
 
 Identyfikacja ma łączyć:
 
@@ -118,7 +118,7 @@ Proporcja:
 - 20% tekst i ciemna zieleń;
 - 10% akcent.
 
-Pomarancz jest sygnałem, nie kolorem dekoracyjnym. Jeżeli wszystko jest pomarańczowe, nic nie jest pilne.
+Pomarańcz jest sygnałem, nie kolorem dekoracyjnym. Jeżeli wszystko jest pomarańczowe, nic nie jest pilne.
 
 ## 5. Typografia
 
@@ -308,11 +308,10 @@ Przed drukiem lub publikacją:
 - `templates/plakat-informacyjny-a3.svg`
 - `templates/tabliczka-drzwi-a5.svg`
 - `templates/tablica-kierunkowa-a1.svg`
-- `previews/identity-board.png`
 - `previews/poster-preview.png`
 - `previews/door-sign-preview.png`
 - `previews/wayfinding-preview.png`
 
-## 12. Źródła i kwerenda
+## 12. Zasada końcowa
 
-Pełna notatka: `kwerenda-ksiega-znaku.md`.
+System identyfikacji ma ułatwiać codzienną komunikację szkoły. Jeżeli materiał wymaga wielu wyjątków, dodatkowych znaków albo zbyt długiego tekstu, należy uprościć komunikat przed projektowaniem.

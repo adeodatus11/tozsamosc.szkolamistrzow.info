@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Identyfikacja wizualna ZSZ5 - Szkoła Mistrzów</title>
-  <meta name="description" content="Robocza księga znaku i zasady identyfikacji wizualnej ZSZ5 we Wrocławiu: logo, kolory, typografia, tabliczki i plakaty informacyjne.">
+  <meta name="description" content="Księga znaku i zasady identyfikacji wizualnej ZSZ5 we Wrocławiu: logo, kolory, typografia, tabliczki i plakaty informacyjne.">
   <link rel="canonical" href="https://tozsamosc.szkolamistrzow.info/identyfikacja.html">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tozsamosc.szkolamistrzow.info/identyfikacja.html">
   <meta property="og:title" content="Identyfikacja wizualna ZSZ5">
-  <meta property="og:description" content="Roboczy guideline dla znaku, kolorów, tabliczek i plakatów informacyjnych ZSZ5.">
+  <meta property="og:description" content="Guideline dla znaku, kolorów, tabliczek i plakatów informacyjnych ZSZ5.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -211,11 +211,112 @@
       box-shadow: var(--shadow);
     }
 
-    .hero-panel img,
+    .hero-panel > img,
     .preview img {
       display: block;
       width: 100%;
       height: auto;
+    }
+
+    .brand-board {
+      display: grid;
+      min-height: 360px;
+      align-content: start;
+    }
+
+    .brand-board-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+      padding: 18px 22px;
+      color: #ffffff;
+      background: var(--heading-color);
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .brand-board-top img {
+      width: 168px;
+      max-width: 42%;
+      height: auto;
+    }
+
+    .brand-board-body {
+      display: grid;
+      gap: 24px;
+      padding: 28px;
+      background: #f5f7fa;
+    }
+
+    .brand-board-title {
+      display: block;
+      color: var(--heading-color);
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .brand-board-subtitle {
+      margin: 4px 0 0;
+      color: var(--text-muted);
+      font-weight: 700;
+    }
+
+    .brand-swatches {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .brand-swatch {
+      min-height: 62px;
+      padding: 10px;
+      border-radius: 5px;
+      color: #ffffff;
+      font-size: 0.78rem;
+      font-weight: 800;
+    }
+
+    .brand-swatch.light {
+      color: var(--text-color);
+      border: 1px solid var(--border-color);
+    }
+
+    .brand-board-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .brand-board-card {
+      min-height: 128px;
+      padding: 18px;
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+    }
+
+    .brand-board-card img {
+      width: 112px;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 16px;
+    }
+
+    .brand-board-card strong {
+      display: block;
+      color: var(--heading-color);
+      font-size: 0.9rem;
+    }
+
+    .brand-board-card span {
+      display: block;
+      margin-top: 4px;
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      font-weight: 700;
     }
 
     .section {
@@ -529,18 +630,49 @@
     <section class="hero" aria-label="Wprowadzenie">
       <div class="hero-inner">
         <div>
-          <p class="eyebrow">Robocza księga znaku</p>
+          <p class="eyebrow">Księga znaku</p>
           <h1>Identyfikacja wizualna ZSZ5</h1>
           <p class="lead">
             Zasady używania znaku, kolorów, typografii, tabliczek na sale i plakatów informacyjnych szkoły.
           </p>
           <div class="download-row">
-            <a class="button" href="docs/identity/guideline-identyfikacji.md">Pobierz guideline</a>
+            <a class="button" href="docs/identity/guideline-identyfikacji.md">Pobierz księgę znaku</a>
             <a class="button secondary" href="docs/identity/guideline-plakaty-informacyjne.md">Zasady plakatów</a>
           </div>
         </div>
-        <figure class="hero-panel">
-          <img src="assets/identity/identity-board.png" alt="Plansza roboczego systemu identyfikacji ZSZ5 z logo, kolorami i typografią.">
+        <figure class="hero-panel brand-board" aria-label="Plansza systemu identyfikacji ZSZ5">
+          <div class="brand-board-top">
+            <img src="assets/identity/zsz5-lockup-wide-white.png" alt="Zespół Szkół Zawodowych nr 5 - Szkoła Mistrzów">
+            <span>System identyfikacji</span>
+          </div>
+          <div class="brand-board-body">
+            <div>
+              <strong class="brand-board-title">ZSZ5 WE WROCŁAWIU</strong>
+              <p class="brand-board-subtitle">Sektorowo. Konkretnie. Po mistrzowsku.</p>
+            </div>
+            <div class="brand-swatches" aria-label="Kolory identyfikacji">
+              <div class="brand-swatch" style="background:#173625">Deep Forest</div>
+              <div class="brand-swatch" style="background:#089700">ZSZ Green</div>
+              <div class="brand-swatch" style="background:#047690">Workshop Blue</div>
+              <div class="brand-swatch" style="background:#FF8F00">Craft Amber</div>
+              <div class="brand-swatch light" style="background:#F5F7FA">Warm White</div>
+              <div class="brand-swatch light" style="background:#E8F5E8">Mint Panel</div>
+              <div class="brand-swatch" style="background:#1F2D26">Ink</div>
+              <div class="brand-swatch light" style="background:#D8E3DB">Soft Line</div>
+            </div>
+            <div class="brand-board-grid">
+              <div class="brand-board-card">
+                <img src="assets/identity/zsz5-logo-dark.png" alt="Logo ZSZ5 w wersji ciemnej">
+                <strong>Logo ciemne</strong>
+                <span>Jasne tło, dokumenty, tabliczki.</span>
+              </div>
+              <div class="brand-board-card">
+                <img src="assets/identity/zsz5-logo-green.png" alt="Logo ZSZ5 w wersji zielonej">
+                <strong>Logo akcentowe</strong>
+                <span>Neutralne tło i materiały promocyjne.</span>
+              </div>
+            </div>
+          </div>
         </figure>
       </div>
     </section>
@@ -702,26 +834,21 @@
 
     <section id="pliki" class="section">
       <div class="wrap">
-        <h2>Pliki i dokumenty źródłowe</h2>
+        <h2>Pliki do wdrożenia</h2>
         <p class="section-copy">
-          Poniżej są robocze dokumenty Markdown i grafiki startowe. Można je dalej przepisać do Canvy, Figmy, prezentacji albo finalnej księgi znaku.
+          Poniżej są dokumenty zasad oraz grafiki poglądowe do wykorzystania przy projektowaniu materiałów szkolnych.
         </p>
 
-        <div class="grid cols-3">
+        <div class="grid cols-2">
           <article class="card">
             <h3>Księga znaku</h3>
             <p>Pełny guideline: znak, kolory, typografia, tabliczki, kierunki i checklista.</p>
-            <div class="download-row"><a class="button secondary" href="docs/identity/guideline-identyfikacji.md">Otwórz MD</a></div>
+            <div class="download-row"><a class="button secondary" href="docs/identity/guideline-identyfikacji.md">Otwórz dokument</a></div>
           </article>
           <article class="card">
             <h3>Plakaty</h3>
             <p>Osobny guideline dla komunikatów, rekrutacji, egzaminów, wydarzeń i pilnych zmian.</p>
-            <div class="download-row"><a class="button secondary" href="docs/identity/guideline-plakaty-informacyjne.md">Otwórz MD</a></div>
-          </article>
-          <article class="card">
-            <h3>Kwerenda</h3>
-            <p>Notatka o tym, jak zbudowana jest księga znaku i które reguły przeniesiono do ZSZ5.</p>
-            <div class="download-row"><a class="button secondary" href="docs/identity/kwerenda-ksiega-znaku.md">Otwórz MD</a></div>
+            <div class="download-row"><a class="button secondary" href="docs/identity/guideline-plakaty-informacyjne.md">Otwórz dokument</a></div>
           </article>
         </div>
       </div>
@@ -730,7 +857,7 @@
 
   <footer>
     <div class="wrap">
-      <strong>Identyfikacja wizualna ZSZ5 · wersja robocza</strong>
+      <strong>Identyfikacja wizualna ZSZ5</strong>
       <a href="./">Wróć do koncepcji</a>
     </div>
   </footer>

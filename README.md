@@ -1,11 +1,11 @@
 # Tożsamość Szkoły Mistrzów
 
-Strona prezentacyjna roboczej koncepcji działalności Zespołu Szkół Zawodowych nr 5 we Wrocławiu.
+Strona prezentacyjna koncepcji działalności Zespołu Szkół Zawodowych nr 5 we Wrocławiu.
 
 ## Zawartość
 
 - `index.html` - kompletna, samodzielna strona prezentacyjna,
-- `docs/` - materiały robocze wykorzystane przy opracowaniu koncepcji,
+- `docs/` - materiały źródłowe i wdrożeniowe,
 - `CNAME` - docelowa domena GitHub Pages.
 
 ## Uruchomienie lokalne

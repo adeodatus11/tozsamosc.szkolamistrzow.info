@@ -1,6 +1,6 @@
 # Guideline plakatów informacyjnych ZSZ5
 
-Wersja robocza: 2026-08-06  
+Wersja: 2026-08-06  
 Zakres: plakaty A3/A4, grafiki do gablot, komunikaty na drzwi, grafiki WWW/social.
 
 ## 1. Zasada główna
@@ -101,7 +101,7 @@ Szablon:
 
 ```text
 REKRUTACJA
-Wybierz zawód w ZSZ5
+Wybierz ścieżkę w ZSZ5
 Zobacz pracownie, kierunki i zasady naboru.
 
 Data:
@@ -147,7 +147,7 @@ Reguła: bez ozdobników, bez zdjęć, bez długich akapitów. Egzaminowy plakat
 
 Kolor: zależnie od charakteru:
 
-- zawodowe/pokazy: `ZSZ Green`;
+- branżowe/pokazy: `ZSZ Green`;
 - oficjalne/uroczyste: `Deep Forest`;
 - społeczność/akcje uczniowskie: `Workshop Blue`;
 - termin lub pilność: akcent `Craft Amber`.
@@ -361,4 +361,3 @@ Przed publikacją:
 - Czy QR ma podpis i alternatywny link?
 - Czy wersja do druku jest PDF, a wersja social PNG/JPG?
 - Czy plik ma sensowną nazwę?
-
